@@ -29,4 +29,7 @@ var destructivelyRemoveElementFromBeginningOfArray = array => {
   return array;
 }
 
-var removeElementFromBeginningOfArray = array => let newArr = array.slice(1);
+var removeElementFromBeginningOfArray = array => {
+  let newArr = array.slice(1);
+  return newArr;
+}

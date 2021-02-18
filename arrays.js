@@ -33,3 +33,8 @@ var removeElementFromBeginningOfArray = array => {
   let newArr = array.slice(1);
   return newArr;
 }
+
+var destructivelyRemoveElementFromBeginningOfArray = array => {
+  array.pop();
+  return array;
+}

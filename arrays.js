@@ -34,7 +34,7 @@ var removeElementFromBeginningOfArray = array => {
   return newArr;
 }
 
-var destructivelyRemoveElementFromBeginningOfArray = array => {
+var destructivelyRemoveElementFromEndOfArray = array => {
   array.pop();
   return array;
 }

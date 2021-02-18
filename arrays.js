@@ -23,3 +23,5 @@ var destructivelyAddElementToEndOfArray = (array, element) => {
 var accessElementInArray = (array, index) => {
   return array[index];
 }
+
+var destructivelyRemoveElementFromBeginningOfArray = array => array.shift();
